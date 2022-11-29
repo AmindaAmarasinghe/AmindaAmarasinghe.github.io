@@ -102,7 +102,10 @@ https://templatemo.com/tm-536-dream-pulse
               data-image-src="img/cover.jpg">
               <div class="tm-section-wrap">
                 <section id="intro" class="tm-section">
-                    <div class="tm-intro" style="background-color:#ADD8E6">
+                    <div class="tm-intro" style="background: #7F7FD5;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    ">
                         <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Aminda Amarasinghe</h2>
                         <p class="tm-color-gray"><b>
                           A highly enthusiastic Computer Engineering undergraduate with 
@@ -119,28 +122,75 @@ https://templatemo.com/tm-536-dream-pulse
 
           <div class="tm-section-wrap bg-white">
             <section id="about" class="row tm-section">
-              <div class="col-xl-6">
-                <div class="tm-section-half">    
-                    <div><i class="fas fa-3x fa-balance-scale mb-5 tm-section-icon"></i></div>                        
-                    <h2 class="tm-section-title tm-color-primary mb-5">About me</h2>
+              <div class="col-xl-12">
+                <div class="tm-section-half">
+                    <div class="row d-flex align-items-center justify-content-center mb-0">
+                      <div class="col-3 d-flex justify-content-center"><i class="fas fa-3x fa-balance-scale mb-1 tm-section-icon"></i></div>                        
+                      <div class="col-9"><h2 class="tm-section-title tm-color-primary mb-1 pl-2">About me</h2></div>
+                    </div>    
+                    
                     <p class="mb-5">
-                      <i class="fas fa-home mr-3"></i>Eheliyagoda<br>
-                      <i class="fas fa-street-view mr-3"></i>Peradeniya, Kandy<br>
-                      <i class="fas fa-university mr-3"></i>University of Peradeniya<br>
-                      <i class="fas fa-child mr-3"></i>24 years old<br>
+                      <div class="row bg-dark">
+                        <div class="col-2 d-flex align-items-center justify-content-center"><i class="fas fa-home mr-3 text-white"></i></div>
+                        <div class="col-10 bg-primary"><div class=" ribbon">
+                          <div class=" ribbon-content">
+                            
+                              Eheliyagoda
+                            
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      
+                      <br>
+                      <div class="row bg-dark">
+                        <div class="col-2 d-flex align-items-center justify-content-center"><i class="fas fa-street-view mr-3 text-white"></i></div>
+                        <div class="col-10 bg-primary"><div class=" ribbon">
+                          <div class=" ribbon-content">
+                            Peradeniya, Kandy
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <br>
+                      <div class="row bg-dark">
+                        <div class="col-2 d-flex align-items-center justify-content-center"><i class="fas fa-university mr-3 text-white"></i></div>
+                        <div class="col-10 bg-primary"><div class=" ribbon">
+                          <div class=" ribbon-content">
+                            University of Peradeniya
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <br>
+                      <div class="row bg-dark">
+                        <div class="col-2 d-flex align-items-center justify-content-center"><i class="fas fa-child mr-3 text-white"></i></div>
+                        <div class="col-10 bg-primary"><div class=" ribbon">
+                          <div class=" ribbon-content">
+                            24 years old
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <br>
+                      
+                      <!--
                       <i class="fas fa-heart mr-3"></i>single<br>
-                      <i class="fas fa-headphones mr-3"></i>music, reading<br>
-
+                      <i class="fas fa-headphones mr-3"></i>music, reading<br> -->
+                      
                     </p>
                     <p>
                       
                     </p>
                 </div>
               </div>
-              <div class="col-xl-6">
+              <div class="col-xl-12">
                 <div class="tm-section-half">
-                    <div><i class="far fa-3x fa-building mb-5 tm-section-icon"></i></div>
-                    <h2 class="tm-section-title tm-color-primary mb-5">Academic Profile</h2>
+                  <div class="row d-flex align-items-center justify-content-center mb-0">
+                    <div class="col-3 d-flex justify-content-center"><i class="far fa-3x fa-building mb-1 tm-section-icon"></i></div>                        
+                    <div class="col-9"><h2 class="tm-section-title tm-color-primary mb-1 pl-2">Academic Profile</h2></div>
+                  </div>    
+         
                     <h5 class="mb-5">
                       Bachelor of Science of Engineering
                       (Computer Engineering / Undergraduate)
@@ -258,10 +308,11 @@ https://templatemo.com/tm-536-dream-pulse
                   	<div class="tm-w-80 mb-5">
                           <h2 class="tm-color-primary tm-section-title mb-4">Education</h2>
                           <p class="mb-5">
-                            <ul style="list-style: none;">
-                            	<li><img src="img/gallery/ecc.jfif"><h5>Eheliyagoda Central College</h5></li>
-                            	<li><img src="img/gallery/favicon.png"><h5>University of Peradeniya</h5></li>
-                            </ul>
+                            <div class="row">
+                              <div class="col-6 pb-5 d-flex justify-content-center"><img src="img/gallery/ecc.jfif"><h5  style="position: absolute; bottom: 0;">Eheliyagoda Central College</h5></div>
+                              <div class="col-6 pb-5 d-flex justify-content-center"><img src="img/gallery/favicon.png"><h5  style="position: absolute; bottom: 0;">University of Peradeniya</h5></div>
+                            </div>
+                            
                           </p>
                     </div>
                     <div class="tm-w-80 mb-5">
