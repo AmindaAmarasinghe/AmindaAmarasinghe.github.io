@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  // Toggle details for clickable rows
+  window.toggleDetails = function(row) {
+    var details = row.nextElementSibling;
+    if (details && details.classList.contains('details-row')) {
+      if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'flex';
+      } else {
+        details.style.display = 'none';
+      }
+    }
+  }
   // Single Page Nav for highlighting nav items
   $("#tmMainNav").singlePageNav();
 

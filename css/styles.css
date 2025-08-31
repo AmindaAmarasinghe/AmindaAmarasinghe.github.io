@@ -197,3 +197,31 @@ background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, F
     justify-content: space-around;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .tm-section-half {
+        padding: 0px !important;
+        .container {
+            margin-left: 0px !important;
+            padding-left: 0px !important;
+        }
+    }
+    .research-bg {
+        margin: 0px !important;
+    }
+    .ribbon {
+        width: 100%;
+    }
+    .super_cards {
+        margin-left: 20px;
+        margin-right: 20px;
+        h5 {
+            font-size: 12px;
+        }
+        h6 {
+            font-size: 12px;
+        }
+    }
+    #tmSidebar{
+        background: #302e2f;
+    }
+}
